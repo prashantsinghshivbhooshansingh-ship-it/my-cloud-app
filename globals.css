@@ -1,2 +1,5 @@
-body{background:#0f172a;color:white;font-family:sans-serif}
-button{padding:10px;background:#2563eb;color:white;border:none}
+import '../styles/globals.css';
+
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />;
+}
